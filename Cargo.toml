@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "toml-demo"
+version = "0.1.0"
+
+[[bin]]
+name = "main"
+path = "bin/main.rs"
+
+[dependencies]
+num_cpus = "*"
+serde = "*"
+toml = "*"
